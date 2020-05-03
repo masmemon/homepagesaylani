@@ -1,0 +1,32 @@
+/* #imgdonation */
+.carousel-inner img{
+    width: 1335px ;
+    height: 500px ;
+    /* align-items: center;
+    margin-bottom: 0px; */
+    }
+    
+    #carouselExampleFade{
+        position: relative;
+        top: 0px;
+    }
+    
+    /* @media only screen and (max-width: 800px){
+        .carousel-inner img{
+            width: 800px;
+            height: 200px;
+
+        }
+    } */
+
+
+    #news{
+        background-color:#316DC3;
+        color: white;
+        margin-top: 2px;
+        margin-left: 120px;
+        margin-right: 130px;
+        font-size: 14px;
+        font-family: sans-serif;
+    }
+    

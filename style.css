@@ -1,0 +1,153 @@
+#firstdiv{
+    /* background-color: darkblue; */
+}   
+
+.firstdiv ul{
+    /* margin-left: 30px; */
+    /* display: inline-block; */
+}
+
+.firstdiv li{
+    display: inline-block;
+    padding: 1px;
+}
+
+.firstdiv .imgs{
+    width: 20px;
+    height: 20px;
+    border-radius: 0.5cm;
+    padding: 2px;
+}
+
+.firstdiv .imgs:hover{
+    cursor: pointer;
+    background-color:blue;
+}
+
+
+.firstdivpara{
+    position: relative;
+    top: 3px;
+    width: 600px;
+    color: white;
+    font-size: 14px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+/* @media only screen and (max-width: 500px){
+    .firstdivpara{
+        width: 350px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 330px){
+    .firstdivpara{
+        width: 200px;
+        text-align: center;
+    }
+} */
+
+.firstdiv #ukd{
+    /* margin-left: 60px; */
+}
+
+.firstdiv button{
+    background-color: lightgray;     
+    color: green;
+    border-width: 1px;
+    height: 25px;
+    width: 70px;
+    font-size: 0.60em;   
+    border-radius: 0.1cm; 
+    position: relative;
+    top: 5px;
+}
+
+.firstdiv button:hover{
+    cursor: pointer;
+}
+
+.col{
+    text-align: center;
+}
+
+.major{
+    background-color:#316dc3;
+    /* display: inline-block; */
+    /* width: 0px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    padding: 10px;
+}
+
+
+.position{
+    /* position: relative; */
+    /* right: 30px; */
+    /* top: 3px; */
+}
+
+
+.position{
+    width: 170px;
+}
+
+
+
+@media only screen and (max-width: 500px){
+    .major{
+        /* width: 200px; */
+        /* text-align: center; */
+        /* flex-direction: column !important; */
+    }
+}
+
+@media only screen and (max-width: 990px){
+    .firstdivpara{
+        width: 800px;
+        text-align: center;
+        /* flex-direction: column !important; */
+    }
+}
+
+@media only screen and (max-width: 700px){
+    .firstdivpara{
+        width: 500px;
+        text-align: center;
+        /* flex-direction: column !important; */
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .firstdivpara{
+        width: 300px;
+        text-align: justify;
+        /* flex-direction: column !important; */
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .position{
+        width: 500px;
+        text-align: center;
+        /* flex-direction: column !important; */
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .position{
+        width: 500px;
+        text-align: justify;
+        /* flex-direction: column !important; */
+    }
+}
+@media only screen and (max-width: 500px){
+    .firstdiv{
+        width: 400px;
+        text-align: justify;
+        /* flex-direction: column !important; */
+    }
+}
+

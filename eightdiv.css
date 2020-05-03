@@ -1,0 +1,65 @@
+.eightdiv{
+    background-color: #25272e;
+    /* margin-top: 100px; */
+    /* margin-bottom: 10px; */
+}
+
+.top{
+    margin-top: 80px;
+
+}
+.eightdiv p, li, h5{
+    color: blanchedalmond;
+}
+
+.eightdiv h5{
+    border-bottom: inset  0.5px;
+    }
+
+.connectwithus li{
+    display: inline-block;
+    padding: 2px;
+}
+
+.connectwithus img{
+    width: 25px;
+    height: 25px;
+    border-radius: 0.5cm;
+    padding: 2px;
+}
+
+.connectwithus img:hover{
+    cursor: pointer;
+    /* background-color:blue; */
+}
+
+.connectwithus{
+    /* text-align: left; */
+    justify-content: left;
+    /* position: relative; */
+
+}
+
+
+
+.copyright {
+    background-color:blue;
+    margin-top: 80px;
+}
+
+.copyright p{
+    font-size: 10px;
+    position: relative;
+    top: 5px;
+    left: 15px;
+}
+
+
+#upward{
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 30px;
+    right: 50PX;
+    border-radius: 1cm;
+}

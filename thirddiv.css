@@ -1,0 +1,54 @@
+#maindiv{
+    background-color: #f7f8fa;
+
+}
+
+#thirddiv{
+    margin-bottom: 0px;
+    
+}
+
+#introduction {
+    /* margin: 0px 0px 10px; */
+    text-align: center;
+    margin: auto;
+    width: 900px;
+ }
+
+#introduction h1{
+    display: inline-block;
+}
+
+#intro{
+    color: blue;
+    font-family: serif;
+    font-size: 30px;
+}
+
+#duction{
+    color: rgba(4, 85, 4, 0.904);
+    font-family: serif;
+    font-size: 30px;
+}
+
+#introduction p{
+    color: #666666;
+    text-align: justify;
+    font-family: serif;
+    font-size: 17px;
+}
+
+.intropara{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* padding: 0px 100px; */
+    text-align: center;
+}
+
+@media only screen and (max-width: 577px){
+    .intropara{
+        width: 400px;
+    }
+}

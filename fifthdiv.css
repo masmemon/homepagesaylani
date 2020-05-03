@@ -1,0 +1,65 @@
+/* #fifthddiv{
+    margin-bottom: 0px;
+    margin-top: 0px;
+} */
+
+.text-center h1{
+    display: inline-block;   
+}
+
+#what{
+    color: blue;
+    font-family: serif;
+    font-size: 30px;
+    height: 0px;
+    padding: 0px 0px;
+}
+
+#doing{
+    color: rgba(4, 85, 4, 0.904);
+    font-family: serif;
+    font-size: 30px;
+    height: 0px;
+    padding: 0px 0px;
+}
+
+
+
+.whatwearedoing img{
+    width: 70px;
+    height: 70px;
+    border-radius: 1cm;
+    cursor: pointer;
+    }
+
+.whatwearedoing h3{
+    font-size: 22px;
+    color: #316DC3;
+}
+
+.whatwearedoing {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+    text-align: center;
+}
+
+.wead{
+    position: relative;
+    top: 12px;
+    width: 300px;
+    padding: 12px 60px;
+    height: 150px;
+    background-color: white;
+    margin: 0px 0px 30px;
+    font-family: calibri;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+.wead img h3{
+    text-align: center;
+    vertical-align: 30px;
+}
+

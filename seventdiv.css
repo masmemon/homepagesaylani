@@ -1,0 +1,49 @@
+.seventhddiv{
+    background-color: white;
+    /* border: 3px solid; */
+    margin-bottom: 0px;
+}
+
+.text-center h1{
+    display: inline-block;   
+    font-weight: bold;
+}
+
+#image{
+    color: blue;
+    font-family: serif;
+    font-size: 30px;
+    height: 0px;
+    padding: 0px 0px;
+}
+
+#gallery{
+    color: rgba(4, 85, 4, 0.904);
+    font-family: serif;
+    font-size: 30px;
+    height: 0px;
+    padding: 0px 0px;
+}
+
+
+
+.imagegallery img{
+    width: 200px;
+    height: 120px;
+    /* border-radius: 1cm; */
+    cursor: pointer;
+    }
+
+.imagegallery {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    position: relative;
+    top: 0px;
+    justify-content: center;
+
+}
+
+
+
